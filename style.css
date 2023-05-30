@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 100px 500px;
+  gap: 20px;
+  height: 447.78px;
+  width: 390px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+img {
+  width: 75px;
+  height: 23.99px;
+}
+h1 {
+  font-size: 24pxs;
+}
+h4 {
+  font-size: 16px;
+}
+.inputbox {
+  position: relative;
+  width: 367.78px;
+  height: 63.98px;
+}
+.inputbox input {
+  width: 100%;
+  outline: none;
+  transition: 0.5s;
+  padding: 13px 15px;
+}
+.inputbox span {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  pointer-events: none;
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  transform: translateX(3px) translateY(-22px);
+}
+.ss {
+  text-decoration: none;
+  margin-top: -10px;
+  margin-left: -260px;
+}
+a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+p {
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 8px 25px;
+  font-size: 14px;
+  margin-left: 250px;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.texii a {
+  position: relative;
+  top: -50px;
+  right: 125px;
+}
